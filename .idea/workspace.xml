@@ -2,12 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a69badf7-e8f8-4b0b-b85e-0988f8826f4a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/boardgame/Board.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/boardgame/Piece.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/boardgame/Position.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/application/UI.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chess/ChessMatch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chess/ChessPiece.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chess/Color.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/application/Program.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/application/Program.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/boardgame/Board.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/boardgame/Board.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,6 +18,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Enum" />
         <option value="Class" />
       </list>
     </option>
@@ -66,28 +68,71 @@
       <option name="presentableId" value="Default" />
       <updated>1583763862940</updated>
     </task>
+    <task id="LOCAL-00001" summary="Criadas classes Board, Piece e Position">
+      <created>1583765380074</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1583765380075</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Criadas classes Board, Piece e Position" />
+    <option name="LAST_COMMIT_MESSAGE" value="Criadas classes Board, Piece e Position" />
+  </component>
   <component name="WindowStateProjectService">
-    <state x="1297" y="243" key="#com.intellij.ide.util.MemberChooser" timestamp="1583765245813">
+    <state x="1297" y="243" key="#com.intellij.ide.util.MemberChooser" timestamp="1583765672658">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="1297" y="243" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1583765245813" />
-    <state width="1032" height="282" key="GridCell.Tab.0.bottom" timestamp="1583765337886">
+    <state x="1297" y="243" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1583765672658" />
+    <state x="1146" y="121" key="CommitChangelistDialog2" timestamp="1583765377195">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1032" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1583765337886" />
-    <state width="1032" height="282" key="GridCell.Tab.0.center" timestamp="1583765337886">
+    <state x="1146" y="121" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1583765377195" />
+    <state width="1032" height="344" key="GridCell.Tab.0.bottom" timestamp="1583772118605">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1032" height="282" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1583765337886" />
-    <state width="1032" height="282" key="GridCell.Tab.0.left" timestamp="1583765337886">
+    <state width="1032" height="344" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1583772118605" />
+    <state width="1032" height="344" key="GridCell.Tab.0.center" timestamp="1583772118605">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1032" height="282" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1583765337886" />
-    <state width="1032" height="282" key="GridCell.Tab.0.right" timestamp="1583765337886">
+    <state width="1032" height="344" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1583772118605" />
+    <state width="1032" height="344" key="GridCell.Tab.0.left" timestamp="1583772118605">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1032" height="282" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1583765337886" />
+    <state width="1032" height="344" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1583772118605" />
+    <state width="1032" height="344" key="GridCell.Tab.0.right" timestamp="1583772118605">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1032" height="344" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1583772118605" />
+    <state width="1032" height="344" key="GridCell.Tab.1.bottom" timestamp="1583772118606">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1032" height="344" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1583772118606" />
+    <state width="1032" height="344" key="GridCell.Tab.1.center" timestamp="1583772118605">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1032" height="344" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1583772118605" />
+    <state width="1032" height="344" key="GridCell.Tab.1.left" timestamp="1583772118605">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1032" height="344" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1583772118605" />
+    <state width="1032" height="344" key="GridCell.Tab.1.right" timestamp="1583772118605">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1032" height="344" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1583772118605" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/application/UI.java</url>
+          <line>7</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

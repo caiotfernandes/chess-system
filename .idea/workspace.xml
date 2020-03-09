@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a69badf7-e8f8-4b0b-b85e-0988f8826f4a" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/application/Program.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/application/Program.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/application/UI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/application/UI.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/chess/ChessMatch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/chess/ChessMatch.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/chess/pieces/King.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/chess/pieces/King.java" afterDir="false" />
     </list>
     <list id="55d4c368-039f-4dc1-9fe9-381c73568c31" name="idea" comment="" />
     <option name="SHOW_DIALOG" value="false" />
@@ -117,7 +116,14 @@
       <option name="project" value="LOCAL" />
       <updated>1583782409199</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Printing possible moves">
+      <created>1583782830672</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1583782830672</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -127,7 +133,8 @@
     <MESSAGE value="Moving pieces;" />
     <MESSAGE value="Handling exceptions and clearing screen" />
     <MESSAGE value="Implementing possible moves for the Rook" />
-    <option name="LAST_COMMIT_MESSAGE" value="Implementing possible moves for the Rook" />
+    <MESSAGE value="Printing possible moves" />
+    <option name="LAST_COMMIT_MESSAGE" value="Printing possible moves" />
   </component>
   <component name="WindowStateProjectService">
     <state x="828" y="179" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1583782037504">
@@ -142,42 +149,46 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1063" y="64" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1583782828145" />
+    <state width="416" height="466" key="DebuggerActiveHint" timestamp="1583783550983">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="416" height="466" key="DebuggerActiveHint/0.0.1920.1040@0.0.1920.1040" timestamp="1583783550983" />
     <state x="1180" y="278" key="FileChooserDialogImpl" timestamp="1583779666631">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1180" y="278" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1583779666631" />
-    <state width="923" height="358" key="GridCell.Tab.0.bottom" timestamp="1583782808202">
+    <state width="923" height="344" key="GridCell.Tab.0.bottom" timestamp="1583783910011">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="923" height="358" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1583782808202" />
-    <state width="923" height="358" key="GridCell.Tab.0.center" timestamp="1583782808202">
+    <state width="923" height="344" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1583783910011" />
+    <state width="923" height="344" key="GridCell.Tab.0.center" timestamp="1583783910011">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="923" height="358" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1583782808202" />
-    <state width="923" height="358" key="GridCell.Tab.0.left" timestamp="1583782808202">
+    <state width="923" height="344" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1583783910011" />
+    <state width="923" height="344" key="GridCell.Tab.0.left" timestamp="1583783910011">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="923" height="358" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1583782808202" />
-    <state width="923" height="358" key="GridCell.Tab.0.right" timestamp="1583782808202">
+    <state width="923" height="344" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1583783910011" />
+    <state width="923" height="344" key="GridCell.Tab.0.right" timestamp="1583783910011">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="923" height="358" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1583782808202" />
-    <state width="1032" height="344" key="GridCell.Tab.1.bottom" timestamp="1583772118606">
+    <state width="923" height="344" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1583783910011" />
+    <state width="923" height="344" key="GridCell.Tab.1.bottom" timestamp="1583783910011">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1032" height="344" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1583772118606" />
-    <state width="1032" height="344" key="GridCell.Tab.1.center" timestamp="1583772118605">
+    <state width="923" height="344" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1583783910011" />
+    <state width="923" height="344" key="GridCell.Tab.1.center" timestamp="1583783910011">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1032" height="344" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1583772118605" />
-    <state width="1032" height="344" key="GridCell.Tab.1.left" timestamp="1583772118605">
+    <state width="923" height="344" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1583783910011" />
+    <state width="923" height="344" key="GridCell.Tab.1.left" timestamp="1583783910011">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1032" height="344" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1583772118605" />
-    <state width="1032" height="344" key="GridCell.Tab.1.right" timestamp="1583772118605">
+    <state width="923" height="344" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1583783910011" />
+    <state width="923" height="344" key="GridCell.Tab.1.right" timestamp="1583783910011">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1032" height="344" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1583772118605" />
+    <state width="923" height="344" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1583783910011" />
     <state x="768" y="30" key="SettingsEditor" timestamp="1583779674009">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -199,9 +210,9 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/application/UI.java</url>
-          <line>51</line>
-          <option name="timeStamp" value="1" />
+          <url>file://$PROJECT_DIR$/src/chess/pieces/King.java</url>
+          <line>33</line>
+          <option name="timeStamp" value="2" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

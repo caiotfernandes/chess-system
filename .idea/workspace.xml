@@ -1,13 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a69badf7-e8f8-4b0b-b85e-0988f8826f4a" name="Default Changelist" comment="Criadas classes Board, Piece e Position">
+    <list default="true" id="a69badf7-e8f8-4b0b-b85e-0988f8826f4a" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/application/Program.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/application/Program.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/application/UI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/application/UI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/boardgame/Board.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/boardgame/Board.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/chess/ChessException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/chess/ChessException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/chess/ChessMatch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/chess/ChessMatch.java" afterDir="false" />
     </list>
-    <list id="55d4c368-039f-4dc1-9fe9-381c73568c31" name="idea" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list id="55d4c368-039f-4dc1-9fe9-381c73568c31" name="idea" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -23,25 +25,6 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-  </component>
-  <component name="LineStatusTrackerManager">
-    <file path="$PROJECT_DIR$/.idea/workspace.xml">
-      <ranges>
-        <range start1="3" end1="8" start2="3" end2="7" changelist="a69badf7-e8f8-4b0b-b85e-0988f8826f4a" />
-        <range start1="9" end1="11" start2="8" end2="8" changelist="a69badf7-e8f8-4b0b-b85e-0988f8826f4a" />
-        <range start1="77" end1="78" start2="74" end2="82" changelist="a69badf7-e8f8-4b0b-b85e-0988f8826f4a" />
-        <range start1="82" end1="83" start2="86" end2="88" changelist="a69badf7-e8f8-4b0b-b85e-0988f8826f4a" />
-        <range start1="85" end1="86" start2="90" end2="91" changelist="55d4c368-039f-4dc1-9fe9-381c73568c31" />
-        <range start1="88" end1="90" start2="93" end2="95" changelist="55d4c368-039f-4dc1-9fe9-381c73568c31" />
-        <range start1="92" end1="94" start2="97" end2="99" changelist="55d4c368-039f-4dc1-9fe9-381c73568c31" />
-        <range start1="96" end1="98" start2="101" end2="103" changelist="55d4c368-039f-4dc1-9fe9-381c73568c31" />
-        <range start1="100" end1="102" start2="105" end2="107" changelist="55d4c368-039f-4dc1-9fe9-381c73568c31" />
-        <range start1="104" end1="106" start2="109" end2="111" changelist="55d4c368-039f-4dc1-9fe9-381c73568c31" />
-        <range start1="108" end1="109" start2="113" end2="114" changelist="55d4c368-039f-4dc1-9fe9-381c73568c31" />
-        <range start1="125" end1="125" start2="130" end2="138" changelist="55d4c368-039f-4dc1-9fe9-381c73568c31" />
-        <range start1="131" end1="132" start2="144" end2="145" changelist="a69badf7-e8f8-4b0b-b85e-0988f8826f4a" />
-      </ranges>
-    </file>
   </component>
   <component name="ProjectId" id="1YtZTwPFL6nkFsO9E7LQCpUXqYu" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -99,39 +82,47 @@
       <option name="project" value="LOCAL" />
       <updated>1583775312554</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Adicionadas cores das peças;">
+      <created>1583775922303</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1583775922303</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Criadas classes Board, Piece e Position" />
     <MESSAGE value="ChessException e ChessPosition" />
-    <option name="LAST_COMMIT_MESSAGE" value="ChessException e ChessPosition" />
+    <MESSAGE value="Adicionadas cores das peças;" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adicionadas cores das peças;" />
   </component>
   <component name="WindowStateProjectService">
     <state x="1297" y="243" key="#com.intellij.ide.util.MemberChooser" timestamp="1583774217147">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1297" y="243" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1583774217147" />
-    <state x="1146" y="121" key="CommitChangelistDialog2" timestamp="1583775309900">
+    <state x="1146" y="121" key="CommitChangelistDialog2" timestamp="1583779312520">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="1146" y="121" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1583775309900" />
-    <state width="923" height="282" key="GridCell.Tab.0.bottom" timestamp="1583775904072">
+    <state x="1146" y="121" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1583779312520" />
+    <state width="923" height="282" key="GridCell.Tab.0.bottom" timestamp="1583779301517">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="923" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1583775904072" />
-    <state width="923" height="282" key="GridCell.Tab.0.center" timestamp="1583775904072">
+    <state width="923" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1583779301517" />
+    <state width="923" height="282" key="GridCell.Tab.0.center" timestamp="1583779301517">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="923" height="282" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1583775904072" />
-    <state width="923" height="282" key="GridCell.Tab.0.left" timestamp="1583775904072">
+    <state width="923" height="282" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1583779301517" />
+    <state width="923" height="282" key="GridCell.Tab.0.left" timestamp="1583779301516">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="923" height="282" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1583775904072" />
-    <state width="923" height="282" key="GridCell.Tab.0.right" timestamp="1583775904072">
+    <state width="923" height="282" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1583779301516" />
+    <state width="923" height="282" key="GridCell.Tab.0.right" timestamp="1583779301517">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="923" height="282" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1583775904072" />
+    <state width="923" height="282" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1583779301517" />
     <state width="1032" height="344" key="GridCell.Tab.1.bottom" timestamp="1583772118606">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -156,13 +147,17 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1196" y="356" key="git4idea.ui.GitUnstashDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1583775272238" />
+    <state x="1098" y="232" width="672" height="678" key="search.everywhere.popup" timestamp="1583778924168">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1098" y="232" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1583778924168" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/application/UI.java</url>
-          <line>29</line>
+          <line>45</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
       </breakpoints>

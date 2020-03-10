@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="a69badf7-e8f8-4b0b-b85e-0988f8826f4a" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/application/Program.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/application/Program.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/application/UI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/application/UI.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/chess/ChessMatch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/chess/ChessMatch.java" afterDir="false" />
     </list>
@@ -131,7 +132,14 @@
       <option name="project" value="LOCAL" />
       <updated>1583783957618</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Switching players each turn">
+      <created>1583784559048</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1583784559049</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -143,7 +151,8 @@
     <MESSAGE value="Implementing possible moves for the Rook" />
     <MESSAGE value="Printing possible moves" />
     <MESSAGE value="Implementing possible moves of King" />
-    <option name="LAST_COMMIT_MESSAGE" value="Implementing possible moves of King" />
+    <MESSAGE value="Switching players each turn" />
+    <option name="LAST_COMMIT_MESSAGE" value="Switching players each turn" />
   </component>
   <component name="WindowStateProjectService">
     <state x="828" y="179" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1583782037504">
@@ -154,10 +163,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1297" y="243" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1583784086745" />
-    <state x="1063" y="64" key="CommitChangelistDialog2" timestamp="1583783955402">
+    <state x="1063" y="64" key="CommitChangelistDialog2" timestamp="1583784556241">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="1063" y="64" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1583783955402" />
+    <state x="1063" y="64" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1583784556241" />
     <state width="416" height="466" key="DebuggerActiveHint" timestamp="1583783550983">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -166,22 +175,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1180" y="278" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1583779666631" />
-    <state width="923" height="344" key="GridCell.Tab.0.bottom" timestamp="1583784538836">
+    <state width="923" height="358" key="GridCell.Tab.0.bottom" timestamp="1583841090871">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="923" height="344" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1583784538836" />
-    <state width="923" height="344" key="GridCell.Tab.0.center" timestamp="1583784538835">
+    <state width="923" height="358" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1583841090871" />
+    <state width="923" height="358" key="GridCell.Tab.0.center" timestamp="1583841090870">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="923" height="344" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1583784538835" />
-    <state width="923" height="344" key="GridCell.Tab.0.left" timestamp="1583784538835">
+    <state width="923" height="358" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1583841090870" />
+    <state width="923" height="358" key="GridCell.Tab.0.left" timestamp="1583841090869">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="923" height="344" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1583784538835" />
-    <state width="923" height="344" key="GridCell.Tab.0.right" timestamp="1583784538835">
+    <state width="923" height="358" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1583841090869" />
+    <state width="923" height="358" key="GridCell.Tab.0.right" timestamp="1583841090870">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="923" height="344" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1583784538835" />
+    <state width="923" height="358" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1583841090870" />
     <state width="923" height="344" key="GridCell.Tab.1.bottom" timestamp="1583784538836">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -206,6 +215,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1273" y="439" key="VCS.ChangelistChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1583775290498" />
+    <state x="1027" y="257" key="Vcs.Push.Dialog.v2" timestamp="1583784565431">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1027" y="257" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1583784565431" />
     <state x="1196" y="356" key="git4idea.ui.GitUnstashDialog" timestamp="1583775272238">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

@@ -2,11 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a69badf7-e8f8-4b0b-b85e-0988f8826f4a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/chess/pieces/Pawn.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/application/Program.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/application/Program.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/application/UI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/application/UI.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/chess/ChessMatch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/chess/ChessMatch.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/chess/ChessPiece.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/chess/ChessPiece.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/chess/ChessPosition.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/chess/ChessPosition.java" afterDir="false" />
     </list>
     <list id="55d4c368-039f-4dc1-9fe9-381c73568c31" name="idea" comment="" />
     <option name="SHOW_DIALOG" value="false" />
@@ -147,7 +148,14 @@
       <option name="project" value="LOCAL" />
       <updated>1583841113986</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Check logic">
+      <created>1583845209326</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1583845209326</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -161,17 +169,18 @@
     <MESSAGE value="Implementing possible moves of King" />
     <MESSAGE value="Switching players each turn" />
     <MESSAGE value="Handling captured pieces" />
-    <option name="LAST_COMMIT_MESSAGE" value="Handling captured pieces" />
+    <MESSAGE value="Check logic" />
+    <option name="LAST_COMMIT_MESSAGE" value="Check logic" />
   </component>
   <component name="WindowStateProjectService">
     <state x="828" y="179" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1583782037504">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="828" y="179" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1583782037504" />
-    <state x="1297" y="243" key="#com.intellij.ide.util.MemberChooser" timestamp="1583844349431">
+    <state x="1297" y="243" key="#com.intellij.ide.util.MemberChooser" timestamp="1583848688768">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="1297" y="243" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1583844349431" />
+    <state x="1297" y="243" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1583848688768" />
     <state x="1063" y="64" key="CommitChangelistDialog2" timestamp="1583845206445">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -184,22 +193,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1180" y="278" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1583779666631" />
-    <state width="923" height="358" key="GridCell.Tab.0.bottom" timestamp="1583841090871">
+    <state width="923" height="358" key="GridCell.Tab.0.bottom" timestamp="1583849315035">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="923" height="358" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1583841090871" />
-    <state width="923" height="358" key="GridCell.Tab.0.center" timestamp="1583841090870">
+    <state width="923" height="358" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1583849315035" />
+    <state width="923" height="358" key="GridCell.Tab.0.center" timestamp="1583849315035">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="923" height="358" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1583841090870" />
-    <state width="923" height="358" key="GridCell.Tab.0.left" timestamp="1583841090869">
+    <state width="923" height="358" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1583849315035" />
+    <state width="923" height="358" key="GridCell.Tab.0.left" timestamp="1583849315035">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="923" height="358" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1583841090869" />
-    <state width="923" height="358" key="GridCell.Tab.0.right" timestamp="1583841090870">
+    <state width="923" height="358" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1583849315035" />
+    <state width="923" height="358" key="GridCell.Tab.0.right" timestamp="1583849315035">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="923" height="358" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1583841090870" />
+    <state width="923" height="358" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1583849315035" />
     <state width="923" height="344" key="GridCell.Tab.1.bottom" timestamp="1583784538836">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -228,14 +237,18 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1027" y="257" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1583841116338" />
+    <state x="1132" y="255" width="606" height="536" key="find.popup" timestamp="1583849005089">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1132" y="255" width="606" height="536" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1583849005089" />
     <state x="1196" y="356" key="git4idea.ui.GitUnstashDialog" timestamp="1583775272238">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1196" y="356" key="git4idea.ui.GitUnstashDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1583775272238" />
-    <state x="1098" y="232" width="672" height="678" key="search.everywhere.popup" timestamp="1583844513131">
+    <state x="1098" y="232" width="672" height="678" key="search.everywhere.popup" timestamp="1583848134044">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="1098" y="232" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1583844513131" />
+    <state x="1098" y="232" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1583848134044" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -244,6 +257,11 @@
           <url>file://$PROJECT_DIR$/src/chess/pieces/King.java</url>
           <line>33</line>
           <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/boardgame/Piece.java</url>
+          <line>23</line>
+          <option name="timeStamp" value="4" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

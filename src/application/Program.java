@@ -1,6 +1,7 @@
 package application;
 
 import boardgame.Board;
+import boardgame.Piece;
 import boardgame.Position;
 import chess.ChessException;
 import chess.ChessMatch;
@@ -18,7 +19,7 @@ public class Program {
         Scanner sc = new Scanner(System.in);
         List<ChessPiece> listCaptured = new ArrayList<>();
 
-        while(true) {
+        while(!chessMatch.isCheckMate()) {
             try {
                 UI.clearScreen();
                 UI.printMatch(chessMatch, listCaptured);
@@ -47,5 +48,8 @@ public class Program {
             }
 
         }
+
+        UI.clearScreen();
+        UI.printMatch(chessMatch, listCaptured);
     }
 }

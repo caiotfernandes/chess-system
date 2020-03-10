@@ -73,7 +73,7 @@ public class ChessMatch {
             throw new ChessException("You can't put yourself in check");
         }
 
-        check = (testCheck(opponent(currentPlayer)) ? true : false);
+        check = testCheck(opponent(currentPlayer));
 
         if(testCheckMate(opponent(currentPlayer))) {
             checkMate = true;
@@ -212,6 +212,9 @@ public class ChessMatch {
         placeNewPiece('g', 1, new Knight(board, Color.BLACK));
         placeNewPiece('b', 8, new Knight(board, Color.WHITE));
         placeNewPiece('g', 8, new Knight(board, Color.WHITE));
+
+        placeNewPiece('d',1, new Queen(board, Color.BLACK));
+        placeNewPiece('d',8, new Queen(board, Color.WHITE));
 
         placeNewPiece('a', 8, new Rook(board, Color.WHITE));
         placeNewPiece('h', 8, new Rook(board, Color.WHITE));

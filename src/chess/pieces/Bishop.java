@@ -25,28 +25,28 @@ public class Bishop extends ChessPiece {
 
         //NW
         p.setValues(position.getRow() - 1, position.getColumn() - 1);
-        while(getBoard().positionExists(p) && !getBoard().thereIsAPiece(p)) {
+        while(getBoard().positionExists(p) && isThereOpponentPiece(p)) {
             mat[p.getRow()][p.getColumn()] = true;
             p.setValues(p.getRow() - 1, p.getColumn() - 1);
         }
 
         //NE
         p.setValues(position.getRow() - 1, position.getColumn() + 1);
-        while(getBoard().positionExists(p) && !getBoard().thereIsAPiece(p)) {
+        while(getBoard().positionExists(p) && isThereOpponentPiece(p)) {
             mat[p.getRow()][p.getColumn()] = true;
             p.setValues(p.getRow() - 1, p.getColumn() + 1);
         }
 
         //SW
         p.setValues(position.getRow() + 1, position.getColumn() - 1);
-        while(getBoard().positionExists(p) && !getBoard().thereIsAPiece(p)) {
+        while(getBoard().positionExists(p) && isThereOpponentPiece(p)) {
             mat[p.getRow()][p.getColumn()] = true;
             p.setValues(p.getRow() + 1, p.getColumn() - 1);
         }
 
         //SE
         p.setValues(position.getRow() + 1, position.getColumn() + 1);
-        while(getBoard().positionExists(p) && !getBoard().thereIsAPiece(p)) {
+        while(getBoard().positionExists(p) && isThereOpponentPiece(p)) {
             mat[p.getRow()][p.getColumn()] = true;
             p.setValues(p.getRow() + 1, p.getColumn() + 1);
         }

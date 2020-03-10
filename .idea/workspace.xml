@@ -3,9 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="a69badf7-e8f8-4b0b-b85e-0988f8826f4a" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/application/Program.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/application/Program.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/application/UI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/application/UI.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/chess/ChessMatch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/chess/ChessMatch.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/chess/ChessPiece.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/chess/ChessPiece.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/chess/ChessPosition.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/chess/ChessPosition.java" afterDir="false" />
     </list>
     <list id="55d4c368-039f-4dc1-9fe9-381c73568c31" name="idea" comment="" />
     <option name="SHOW_DIALOG" value="false" />
@@ -139,7 +140,14 @@
       <option name="project" value="LOCAL" />
       <updated>1583784559049</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Handling captured pieces">
+      <created>1583841113986</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1583841113986</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -152,21 +160,22 @@
     <MESSAGE value="Printing possible moves" />
     <MESSAGE value="Implementing possible moves of King" />
     <MESSAGE value="Switching players each turn" />
-    <option name="LAST_COMMIT_MESSAGE" value="Switching players each turn" />
+    <MESSAGE value="Handling captured pieces" />
+    <option name="LAST_COMMIT_MESSAGE" value="Handling captured pieces" />
   </component>
   <component name="WindowStateProjectService">
     <state x="828" y="179" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1583782037504">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="828" y="179" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1583782037504" />
-    <state x="1297" y="243" key="#com.intellij.ide.util.MemberChooser" timestamp="1583784086745">
+    <state x="1297" y="243" key="#com.intellij.ide.util.MemberChooser" timestamp="1583844349431">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="1297" y="243" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1583784086745" />
-    <state x="1063" y="64" key="CommitChangelistDialog2" timestamp="1583784556241">
+    <state x="1297" y="243" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1583844349431" />
+    <state x="1063" y="64" key="CommitChangelistDialog2" timestamp="1583845206445">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="1063" y="64" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1583784556241" />
+    <state x="1063" y="64" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1583845206445" />
     <state width="416" height="466" key="DebuggerActiveHint" timestamp="1583783550983">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -215,18 +224,18 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1273" y="439" key="VCS.ChangelistChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1583775290498" />
-    <state x="1027" y="257" key="Vcs.Push.Dialog.v2" timestamp="1583784565431">
+    <state x="1027" y="257" key="Vcs.Push.Dialog.v2" timestamp="1583841116338">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="1027" y="257" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1583784565431" />
+    <state x="1027" y="257" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1583841116338" />
     <state x="1196" y="356" key="git4idea.ui.GitUnstashDialog" timestamp="1583775272238">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1196" y="356" key="git4idea.ui.GitUnstashDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1583775272238" />
-    <state x="1098" y="232" width="672" height="678" key="search.everywhere.popup" timestamp="1583778924168">
+    <state x="1098" y="232" width="672" height="678" key="search.everywhere.popup" timestamp="1583844513131">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="1098" y="232" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1583778924168" />
+    <state x="1098" y="232" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1583844513131" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
